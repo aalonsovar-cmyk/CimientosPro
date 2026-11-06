@@ -1,0 +1,42 @@
+*{
+    font-family: Verdana; 
+    margin:0;
+    padding:0;
+}
+body{
+    background:#a3c9e6;
+    font-family: Trebuchet;
+} 
+.container{
+    width: 1200px;
+    background: white;
+    margin: 0px auto;
+}
+.superior{
+    background: #1f3e55;
+
+/* El contenido sobrante se recorta y se vuelve completamente invisble*/    
+    overflow: hidden;
+
+} 
+/* ESTILOS PARA EL MENU DE OPCIONES*/
+.menu{
+    float: left;
+    padding: 50px;
+}
+.opciones li{
+    float: left;
+    list-style: none;
+}
+.opciones li a{
+    color:white;
+    padding: 20px;
+
+    /*Quita el subrayado del enlace que suele estar por defecto*/
+    text-decoration:none;
+
+    border: 1px solid white;
+}
+.opciones li a:hover{
+    background:#fa6f12;
+}
